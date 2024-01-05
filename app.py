@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__, template_folder="templates")
 
-todos = [{"task": "Sample Todo", "done": False}, {"task": "Second task", "done": False}]
+todos = [{"task": "First task", "done": False}]
 
 
 @app.route("/")
